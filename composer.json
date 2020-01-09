@@ -14,7 +14,7 @@
     "autoload": {
         "psr-4": {
             "Rajbatch\\Batchquery\\": "src/",
-            "Batchquery\\Batchquery": "src/Controllers/Batchquery"
+            "Batchquery\\Batchquery\\": "src/Controllers/Batchquery"
         }
     },
     "extra": {
