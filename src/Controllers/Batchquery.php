@@ -1,6 +1,6 @@
 <?php
 
-namespace Rajbatch\Batchquery\Controllers;
+namespace Rajbatch\Batchquery;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
