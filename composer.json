@@ -13,7 +13,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Rajbatch\\Batchquery\\": "src/"
+            "Rajbatch\\Batchquery\\": "src/",
+            "Batchquery\\Batchquery": "src/Controllers/Batchquery"
         }
     },
     "extra": {
