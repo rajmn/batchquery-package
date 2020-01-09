@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 
 class Batchquery extends Controller
 {
-    public function batchUpdate(Request $request,$cIndex='')
+    public function batchUpdate($cIndex='')
     {   die($cIndex);
         $caseVal = [];
         $setP    = [];
