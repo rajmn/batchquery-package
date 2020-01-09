@@ -1,0 +1,19 @@
+{
+    "name": "rajbatch/batchquery",
+    "description": "This will help user to execute the batch query in their laravel projects.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rajesh Manna",
+            "email": "rajesh@capitalnumbers.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rajbatch\\Batchquery\\": "src/"
+        }
+    }
+}
