@@ -15,7 +15,7 @@ class Batchquery extends Controller
         $final   = [];
         $alIndx  = [];
         $Qtext   = '';
-        $END     = '';
+        $END     = ' END,';
 
         if($index == ''){
             $index = 'id';
@@ -83,10 +83,7 @@ class Batchquery extends Controller
         }
         foreach ($final as $key => $value) {
             $caseVal  = implode(' ',$value);
-            if($Qtext!=''){
-                $END = ' END,';
-            }
-            $Qtext = $Qtext.$END.$caseVal.$END;
+            $Qtext .= $caseVal.$END;
         }
         $WHERE = implode(',',$alIndx);
         return \DB::update("UPDATE `{$table}` SET {$Qtext}`updated_at`=now() WHERE `{$index}` IN ({$WHERE})");
