@@ -11,7 +11,7 @@
 3. Consume very little space, so your project does not get heavy
 
 ## 1. Install
-  `composer require rajbatch/batchquery:dev-master`
+  `composer require rajbatch/batchquery`
 
 
 # **************Batch(bulk) UPDATE*******************
@@ -75,7 +75,7 @@
    # **************Batch(bulk) INSERT*******************
    #### Important parameter needs to be set
    ```php 
-    1. $table = "your table name where update";
+    1. $table = "your table name where insert";
     2. $data  = [
             [
                 'user_id'=>1,
@@ -102,7 +102,7 @@
   ### 3. In Controller function
   ```php 
         $batch = new Batchquery();
-        $table = "your table name where update";
+        $table = "your table name where insert";
         $data  = [
             [
                 'user_id'=>1,
