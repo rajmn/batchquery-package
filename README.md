@@ -2,6 +2,7 @@
 # Batch query for laravel (BULK Query)
 
 ## This will help user to execute the batch(bulk) query in their laravel projects.
+[![Latest Stable Version](https://poser.pugx.org/rajbatch/batchquery/v/stable)](https://packagist.org/packages/rajbatch/batchquery)
 [![License](https://poser.pugx.org/rajbatch/batchquery/license)](https://packagist.org/packages/rajbatch/batchquery)
 [![Total Downloads](https://poser.pugx.org/rajbatch/batchquery/downloads)](https://packagist.org/packages/rajbatch/batchquery)
 [![Daily Downloads](https://poser.pugx.org/rajbatch/batchquery/d/daily)](https://packagist.org/packages/rajbatch/batchquery)
